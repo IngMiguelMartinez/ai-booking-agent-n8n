@@ -34,6 +34,7 @@ El sistema fue construido con una arquitectura tolerante a fallos, utilizando **
 * **Telemetría:** Implementación de un "Error Trigger Workflow" secundario para capturar excepciones a nivel de nodo y emitir alertas tempranas por correo electrónico.
 
 ## ⚙️ Arquitectura del Flujo (Resumen)
+![Arquitectura de n8n](captura-workflow.png)
 1. **Ingesta:** Webhook (POST) recibe el payload JSON de WhatsApp.
 2. **Validación:** Se verifica la procedencia (privado vs. grupo) y el formato (texto vs. audio).
 3. **Control de Estado:** Redis verifica si la sesión del usuario actual está en modo manual ("Human Handoff").
@@ -44,4 +45,4 @@ El sistema fue construido con una arquitectura tolerante a fallos, utilizando **
 * **Ingeniero:** Miguel Santiago Martínez Belalcázar (Consultor de automatización)
 * **Ubicación:** Zipaquirá, Cundinamarca, Colombia
 * **Email:** miguelmartinezbel@gmail.com
-* **LinkedIn:** [Miguel Santiago Martínez B.]([https://www.linkedin.com/in/miguel-santiago-mart%C3%ADnez-belalc%C3%A1zar-19359a313/](https://www.linkedin.com/in/miguel-santiago-martinez-mb/))
+* **LinkedIn:** [Miguel Santiago Martínez B.][(https://www.linkedin.com/in/miguel-santiago-martinez-mb/)]
